@@ -1,0 +1,15 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Satyarth Sharma",
+  "classifications": [
+    "Web",
+    "ASP.NET Core",
+    "Architecture"
+  ],
+  "identity": "DotArch.Template",
+  "name": "DotArch ASP.NET Core Architecture",
+  "shortName": "dotarch",
+  "sourceName": "DotArch",
+  "preferNameDirectory": true,
+  "description": "A clean ASP.NET Core Web API architecture template."
+}

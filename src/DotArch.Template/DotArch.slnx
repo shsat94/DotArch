@@ -1,0 +1,12 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/DotArch.Api/DotArch.Api.csproj" />
+    <Project Path="src/DotArch.Application/DotArch.Application.csproj" />
+    <Project Path="src/DotArch.Domain/DotArch.Domain.csproj" />
+    <Project Path="src/DotArch.Infrastructure/DotArch.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/DotArch.IntegrationTests/DotArch.IntegrationTests.csproj" />
+    <Project Path="tests/DotArch.UnitTests/DotArch.UnitTests.csproj" />
+  </Folder>
+</Solution>
