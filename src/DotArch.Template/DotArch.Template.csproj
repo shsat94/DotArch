@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+
+    <PackageId>DotArch</PackageId>
+    <PackageVersion>1.0.0</PackageVersion>
+
+    <Authors>Satyarth Sharma</Authors>
+    <Description>ASP.NET Core Web API Clean Architecture template.</Description>
+    <PackageTags>dotnet;template;aspnetcore;clean-architecture</PackageTags>
+
+    <PackageType>Template</PackageType>
+
+    <IncludeBuildOutput>false</IncludeBuildOutput>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+
+    <SuppressDependenciesWhenPacking>true</SuppressDependenciesWhenPacking>
+    <NoDefaultExcludes>true</NoDefaultExcludes>
+
+    <IncludeContentInPack>true</IncludeContentInPack>
+    <ContentTargetFolders>content</ContentTargetFolders>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="template\**"
+             Exclude="template\**\bin\**;
+                      template\**\obj\**" />
+  </ItemGroup>
+
+</Project>
