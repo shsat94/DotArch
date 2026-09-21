@@ -5,7 +5,7 @@
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
 
     <PackageId>DotArch</PackageId>
-    <PackageVersion>1.0.0</PackageVersion>
+    <PackageVersion>1.1.0</PackageVersion>
 
     <Authors>Satyarth Sharma</Authors>
     <Description>ASP.NET Core Web API Clean Architecture template.</Description>
